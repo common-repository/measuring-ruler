@@ -1,0 +1,90 @@
+/*
+ * Measuring Ruler CSS
+ * since 1.1
+ *
+ */
+
+/* Datas */
+.mea_data2 {
+	display: block;
+	position: absolute;
+	z-index: 100005;
+}
+
+.mea_data1 {
+	position: absolute;
+	z-index: 100007;
+}
+
+.mea_data1c,
+.mea_data2c {
+	border-radius: 0px;
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, .3);
+	color: #222;
+	font: italic 12px/1.3 sans-serif;
+	padding: 3px 6px;
+	text-align: left;
+	transition: opacity 0.3s ease 0s;
+}
+
+.mea_data1c {
+	background: #fff7e0;
+	border: 1px solid #b3a698;
+}
+
+.mea_data2c {
+	background: #fff;
+	border: 1px solid #b3c9ce;
+}
+
+
+/* Lines */
+.mea_canvas1,
+.mea_canvas2,
+.mea_canvas3 {
+	cursor: none;
+	position: absolute;
+	z-index: 100004;
+}
+
+.mea_canvas3 {
+	background-color: rgba(245, 245, 220, 0.08);
+}
+
+/* Crosshair cursor */
+.mea_cursor,
+.mea_cursor img
+{
+	height: 18px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	width: 18px;
+}
+
+.mea_cursor {
+	z-index: 100005;
+}
+
+.mea_auto_a {
+	background: #fff7e0c7;
+	border-radius: 4px;
+	height: 9px;
+	left: 12px;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: -3px;
+	width: 9px;
+}
+
+.mea_auto_a p {
+	font-family: sans-serif;
+	font-size: 10px;
+	left: 2px;
+	line-height: 10px;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: -1px;
+}
